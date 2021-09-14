@@ -63,3 +63,5 @@ function RemoverNumero() {
         field1txt.value = field1txt.value.substring(0, field1txt.value.length - 1);
     }
 }
+
+//fim

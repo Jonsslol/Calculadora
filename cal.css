@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    margin: 0px;
+    background: skyblue;
+}
+
+nav,section,article {
+    margin: 5px;
+    padding: 8px;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(231, 229, 229);
+    box-shadow: 0 5px 0  #585858;
+    border: none;
+}
+
+button:hover {
+    width: 60px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(233, 233, 233);   
+    box-shadow:0 5px 0  #585858;
+}
+
+button:active {
+    position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+input {
+    width: 250px;
+    font-size: 30px;
+    background-color: rgb(231, 229, 229);
+    color: black;
+    border: black solid 1px;
+    text-align: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+

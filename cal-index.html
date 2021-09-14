@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cal.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  <section>
+  <article>
+    <div id='content'>
+      <div id='content-app'>
+        <input type='text' id='field1' readonly value='0' />
+        <br /><br />
+        <button onclick='EscreveNumero(this)' id='n7'>7</button>
+        <button onclick='EscreveNumero(this)' id='n8'>8</button>
+        <button onclick='EscreveNumero(this)' id='n9'>9</button>
+        <button onclick='Operadores(this)' id='multi'>*</button>
+        <br /><br />
+        <button onclick='EscreveNumero(this)' id='n4'>4</button>
+        <button onclick='EscreveNumero(this)' id='n5'>5</button>
+        <button onclick='EscreveNumero(this)' id='n6'>6</button>
+        <button onclick='Operadores(this)' id='sustract'>-</button>
+        <br /><br />
+        <button onclick='EscreveNumero(this)' id='n1'>1</button>
+        <button onclick='EscreveNumero(this)' id='n2'>2</button>
+        <button onclick='EscreveNumero(this)' id='n3'>3</button>
+        <button onclick='Operadores(this)' id='sum'>+</button>
+        <br /><br />
+        <button onclick='Decimal(this)' id='dec'>.</button>
+        <button onclick='EscreveNumero(this)' id='n0'>0</button>
+        <button onclick='Operadores(this)' id='divide'>/</button>
+        <button onclick='Limpar()' id='C'>C</button>
+        <br /><br />
+        <button onclick='Calcular()' id='calcular' style='width:190px'>=</button>
+        <button onclick='RemoverNumero()' id='removeLast'>B</button>
+      </div>
+    </div>
+    <br />
+    <br /><br />
+  </article>
+</section>
+<script src="cal.js"></script>
+</body>
+</html>
+  
+
